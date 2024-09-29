@@ -17,12 +17,12 @@ pwd_symbols = lowercase.copy() #list of possible characters for our password
 has_upper = input("Include uppercase characters? (y/n): ")
 if has_upper == 'Y' or has_upper == 'y':
     pwd_symbols.extend(uppercase)
-    #pwd_symbols = pywd_symbols + uppercase
+    #pwd_symbols = pwd_symbols + uppercase
 
 has_special = input("Include special characters? (y/n): ")
 if has_special == 'Y' or has_special == 'y':
     pwd_symbols.extend(special)
-    #pwd_symbols = pywd_symbols + special
+    #pwd_symbols = pwd_symbols + special
 
 has_digits = input("Include digits? (y/n): ")
 if has_digits == 'Y' or has_digits == 'y':
